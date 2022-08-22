@@ -2,8 +2,16 @@
 // You can write your code in this editor
 
 //ToitureGridDraw(Mainground)
-if propsToiture ToitureTiledataDraw(mouse_x, mouse_y, Props)
-else ToitureTiledataDraw(mouse_x, mouse_y, Foreground)
-//var _d = ToitureGetTileData(mouse_x, mouse_y, Mainground, DungeonMainground, "solid")
-//draw_text(mouse_x, mouse_y, _d)
+draw_set_font(ftToiture)
+if propsToiture
+{
+    ToitureTiledataDraw(mouse_x, mouse_y, Props)
+    if displayGrid ToitureGridDraw(Props)
+}
+else
+{
+    ToitureTiledataDraw(mouse_x, mouse_y, Foreground)
+    if displayGrid ToitureGridDraw(Foreground)
+}
+draw_set_font(-1)
 

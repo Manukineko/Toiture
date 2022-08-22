@@ -1,10 +1,5 @@
-enum TYPES
-{
-    GROUND,
-    SLOPE
-}
-
 propsToiture = false
+displayGrid = false
 
 //AUTO MODE
 ToitureTileboxCreate(tsGreenValley, sGreenValley)
@@ -19,10 +14,6 @@ ToitureTileboxRegionAddTiledata(tsGreenValley, 4,6,7,7, {solid:false, props: "Mu
 //ToitureTileboxAddTiledataByID(tsGreenValley, [0], 0)
 //ToitureTileboxAddTiledataByID(tsGreenValley, [ [60,63], [70,73] ], 200)
 //ToitureTileboxRegionAddTiledata(tsGreenValley, 4,6,7,7, 300)
-//
-//
-//
-//
 
 //MANUAL
 //Terrain = new ToitureTilebox(tsGreenValley, sGreenValley)

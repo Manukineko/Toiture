@@ -26,8 +26,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Toiture",
-    "path": "folders/Toiture.yy",
+    "name": "Demo",
+    "path": "folders/Demo.yy",
   },
   "resourceVersion": "1.0",
   "name": "ToitureTest",
